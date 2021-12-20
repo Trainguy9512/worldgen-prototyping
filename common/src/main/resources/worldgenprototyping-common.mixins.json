@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "gg.moonflower.worldgenprototyping.core.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinBiomeDefaultFeatures",
+    "MixinOverworldBiomeBuilder",
+    "MixinOverworldBiomes"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
